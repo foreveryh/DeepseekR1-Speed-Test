@@ -5,6 +5,12 @@ load_dotenv()
 
 PROVIDERS = [
     {
+        "name": "火山引擎",
+        "api_key": os.getenv("VOLCENGINE_API_KEY", ""),
+        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
+        "model": os.getenv("VOLCENGINE_MODEL", "ep-20250213205153-qdfsd")
+    },
+    {
         "name": "DeepSeek 官方",
         "api_key": os.getenv("DEEPSEEK_API_KEY", ""),
         "base_url": "https://api.deepseek.com",

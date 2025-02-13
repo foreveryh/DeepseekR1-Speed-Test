@@ -15,12 +15,23 @@
 
 ## 支持的服务商
 
+- 火山引擎
 - DeepSeek 官方
 - 阿里云/百炼
 - 腾讯云
 - PPInfra
 - Nvidia NIM
-（你可以自行添加）
+- （你可以自行添加）
+
+## 服务商性能对比
+
+| 服务商 | 首token响应时间 | 总生成速度 | 免费计划 |
+|--------|----------------|------------|----------|
+| 火山引擎 | 0.89s | 24.91 tokens/s | 50万免费Tokens |
+| 阿里云/百炼 | 1.71s | 3.18 tokens/s | 新用户免费额度，可申请 |
+| 腾讯云 | 1.95s | 10.04 tokens/s | 免费使用到2025年2月25日 |
+| PPInfra | 1.39s | 10.83 tokens/s | 使用[邀请链接](https://ppinfra.com/user/register?invited_by=ZQRQZZ)获得300万R1 Tokens |
+| Nvidia NIM | 57.60s | 2.75 tokens/s | 有一定免费额度 |
 
 ## 环境要求
 

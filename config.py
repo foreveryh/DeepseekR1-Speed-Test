@@ -5,39 +5,15 @@ load_dotenv()
 
 PROVIDERS = [
     {
-        "name": "火山引擎",
-        "api_key": os.getenv("VOLCENGINE_API_KEY", ""),
-        "base_url": "https://ark.cn-beijing.volces.com/api/v3",
-        "model": os.getenv("VOLCENGINE_MODEL", "ep-20250213205153-qdfsd")
+        "name": "DS-R1-Q4-K-M AmpereOne",
+        "api_key": "AmpereOne_API_KEY",
+        "base_url": "http://192.168.1.106:1025/v1",
+        "model": "deepseek-ai/deepseek-r1"
     },
     {
-        "name": "DeepSeek 官方",
-        "api_key": os.getenv("DEEPSEEK_API_KEY", ""),
-        "base_url": "https://api.deepseek.com",
-        "model": "deepseek-reasoner"
-    },
-    {
-        "name": "阿里云/百炼",
-        "api_key": os.getenv("ALIBABA_API_KEY", ""),
-        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
-        "model": "deepseek-r1"
-    },
-    {
-        "name": "腾讯云",
-        "api_key": os.getenv("TENCENT_API_KEY"),
-        "base_url": "https://api.lkeap.cloud.tencent.com/v1",
-        "model": "deepseek-r1"
-    },
-    {
-        "name": "PPInfra",
-        "api_key": os.getenv("PPINFRA_API_KEY"),
-        "base_url": "https://api.ppinfra.com/v3/openai",
-        "model": "deepseek/deepseek-r1/community"
-    },
-    {
-        "name": "Nvida NIM",
-        "api_key": os.getenv("NVIDIA_API_KEY"),
-        "base_url": "https://integrate.api.nvidia.com/v1",
+        "name": "DS-R1-7B-Q8_0 AmpereOne",
+        "api_key": "AmpereOne_API_KEY",
+        "base_url": "http://192.168.1.106:1026/v1",
         "model": "deepseek-ai/deepseek-r1"
     },
 ]
